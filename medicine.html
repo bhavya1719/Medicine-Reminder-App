@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Reminder App</title>
+    <link rel="stylesheet" href="medicine.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💊 Medicine Reminder</h1>
+
+    <input type="text" id="medicineName" placeholder="Enter Medicine Name">
+
+    <input type="time" id="medicineTime">
+
+    <div class="form-group">
+        <label for="medicineColor">tabletColor</label>
+        <input type="text" id="medicineColor" placeholder="enter medicine Color">
+    </div>
+
+    <button onclick="addReminder()">Add Reminder</button>
+    <div class="remainder-section">
+    <h3>Your Medicines</h3>
+    <ul id="medicineList"></ul>
+</div>
+
+<script src="medicine.js"></script>
+</body>
+</html> 
